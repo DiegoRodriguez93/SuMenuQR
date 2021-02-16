@@ -1,0 +1,167 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Great+Vibes&display=swap');
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Poppins&family=Great+Vibes&display=swap');
+
+h1, h2, h3 {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+p,a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cursiva{
+    font-family: 'Great Vibes';
+}
+
+.menu-link{
+    cursor: pointer;
+    text-decoration: none;
+    padding-left:7%;
+    color: white;
+    font-size: 1.2em;
+    display: inline;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+}
+
+.carousel-status{
+    display: none!important;
+}
+
+.hero-title{
+    margin-top: 0;
+    font-size: 2.8em;
+    color: white;
+}
+
+.hero-subtitle{
+    font-family: 'Great Vibes';
+    font-size: 1.8em;
+    color: $gold;
+    margin-bottom: 0;
+/*     text-transform: uppercase; */
+}
+
+.hero-button{
+    display: inline-block;
+    background-color: $gold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 18px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid $gold;
+    margin: 3px;
+}
+
+.hero-button:hover{
+    color: $gold;
+    background-color: transparent;
+    border: 1px solid $gold;
+}
+
+.hero-button2{
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 18px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 3px;
+}
+
+.hero-button2:hover{
+    color: black;
+    background-color: $gold;
+    border: 1px solid $gold;
+}
+
+.chef-name{
+    font-size: 3.0em;
+    color: $orange;
+}
+
+.chef-title{
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #161616;
+    font-weight: bolder;
+}
+
+.menu-title{
+    font-family: 'Alegreya Sans', sans-serif;
+    color: white;
+    font-size: 1.9em;
+    display: inline-block;
+    position: relative;
+    top: -7px;
+    left: 10px;
+}
+
+ion-icon[data-type="title"]{
+color: white;
+padding-top: 25px;
+display: inline-block;
+width: 35px;
+height: 35px;
+}
+
+ion-icon[data-type="feature"]{
+    color: #121212;
+    width: 40px;
+    height: 40px;
+    border: solid 1.5px #121212;
+    padding: 3px;
+}
+
+ion-icon[data-type="social-media"]{
+    cursor: pointer;
+    color: $white;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+
+ion-icon[data-type="home"]{
+    color: $white;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+}
+
+ion-icon[data-type="social-media"]:hover{
+    opacity: 0.8;
+}
+
+.error-input{
+    color: red;
+    font-family: Poppins, sans-serif;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.menu-categoria{
+    opacity: 0.85;
+    background-color: $orange;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    border-radius: 100px;
+    h4{
+        font-family: Poppins, sans-serif;
+        color: $white;
+        font-size: 1.2em;
+        padding: 0;
+        margin: 0;
+    }
+}
